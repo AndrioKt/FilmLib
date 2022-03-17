@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="robert_down">
+
+    <item name="android:textSize">
+        12sp
+    </item>
+
+    <item name="android:textColor">
+        #D8D8D8
+    </item>
+    </style>
+
+    <style name="heading">
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:shadowColor">
+            #80000000
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            6
+        </item>
+
+        <item name="android:shadowRadius">
+            12
+        </item>
+    </style>
+
+   <style name="tvDescriptionTitle">
+       <item name="android:textSize"> 14sp </item>
+       <item name="android:textColor"> #FFFFFF </item>
+   </style>
+
+    <style name="Description">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="reviews">
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #6D6D80
+        </item>
+    </style>
+
+    <style name="tags_style">
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #FF3466
+        </item>
+    </style>
+
+    <style name="film_name_style">
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:textColor">
+            #ECECEC
+        </item>
+
+        <item name="android:shadowColor">
+            #80000000
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            6
+        </item>
+
+        <item name="android:shadowRadius">
+            12
+        </item>
+    </style>
+
+    <style name="movies_list">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="views1">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #6D6D80
+        </item>
+
+    </style>
+
+    <style name="filmname1">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #ECECEC
+        </item>
+
+    </style>
+
+</resources>
