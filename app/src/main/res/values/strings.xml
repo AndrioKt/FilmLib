@@ -8,10 +8,15 @@
     <string name="after_the_d">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos\' actions and restore balance to the universe.</string>
     <string name="tvDescriptionTitle">Storyline</string>
     <string name="reviews">Reviews</string>
-    <string name="tags">Action, Adventure, Fantasy</string>
-    <string name="film_name">Avengers: End Game</string>
+    <string name="avengers_tags">Action, Adventure, Fantasy</string>
+    <string name="avengers_name">Avengers: End Game</string>
     <string name="pg">13+</string>
     <string name="Movies_list">Movies list</string>
     <string name="views1">137 MLN</string>
     <string name="filmname1">Avengers:End Game</string>
+    <string name="age_avengers">+13</string>
+    <string name="title_activity_desc_tenet">Desc_Tenet</string>
+
+
+
 </resources>
