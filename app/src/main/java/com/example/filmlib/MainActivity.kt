@@ -1,57 +1,48 @@
 package com.example.filmlib
 
-import android.annotation.SuppressLint
-import android.app.Activity
+import android.app.SearchManager
 import android.content.Intent
-import android.graphics.Color
-import android.graphics.LinearGradient
-import android.graphics.Shader
-import android.graphics.Shader.TileMode
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import com.example.filmlib.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
+    val films = generateFilms()
     var count = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-
+        initialization()
 
         binding.btBack.setOnClickListener { finish() }
     }
 
+    //TODO: replace with recyclerView
     fun onClickActors1(view: View){
-        val url = "https://en.wikipedia.org/wiki/Robert_Downey_Jr."
-        val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse(url)
-        startActivity(i)
+        val intent = Intent(Intent.ACTION_WEB_SEARCH)
+        intent.putExtra(SearchManager.QUERY, binding.actor1Name.text) // query contains search string
+        startActivity(intent)
     }
     fun onClickActors2(view: View){
-        val url = "https://en.wikipedia.org/wiki/Chris_Evans_(actor)"
-        val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse(url)
-        startActivity(i)
+        val intent = Intent(Intent.ACTION_WEB_SEARCH)
+        intent.putExtra(SearchManager.QUERY, binding.actor2Name.text) // query contains search string
+        startActivity(intent)
     }
     fun onClickActors3(view: View){
-        val url = "https://en.wikipedia.org/wiki/Mark_Ruffin"
-        val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse(url)
-        startActivity(i)
+        val intent = Intent(Intent.ACTION_WEB_SEARCH)
+        intent.putExtra(SearchManager.QUERY, binding.actor3Name.text) // query contains search string
+        startActivity(intent)
     }
     fun onClickActors4(view: View){
-        val url = "https://en.wikipedia.org/wiki/Chris_Hemsworth"
-        val i = Intent(Intent.ACTION_VIEW)
-        i.data = Uri.parse(url)
-        startActivity(i)
+        val intent = Intent(Intent.ACTION_WEB_SEARCH)
+        intent.putExtra(SearchManager.QUERY, binding.actor4Name.text) // query contains search string
+        startActivity(intent)
     }
 
 
@@ -90,5 +81,22 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+    }
+
+    fun initialization(){
+    binding.filmAge.setText(intent.getIntExtra("film_age",0))
+    binding.filmName.setText(intent.getIntExtra("film_name",0))
+    binding.filmTag.setText(intent.getIntExtra("film_tag",0))
+    binding.tvDescription.setText(intent.getIntExtra("film_storyline",0))
+    binding.backImg.setBackgroundResource(intent.getIntExtra("film_image",0))
+    binding.tvReviews.setText(intent.getIntExtra("film_reviews",0))
+    binding.actor1Name.setText(intent.getIntExtra("actor1_name",0))
+    binding.actor1.setBackgroundResource(intent.getIntExtra("actor1_img",0))
+    binding.actor2Name.setText(intent.getIntExtra("actor2_name",0))
+    binding.actor2.setBackgroundResource(intent.getIntExtra("actor2_img",0))
+    binding.actor3Name.setText(intent.getIntExtra("actor3_name",0))
+    binding.actor3.setBackgroundResource(intent.getIntExtra("actor3_img",0))
+    binding.actor4Name.setText(intent.getIntExtra("actor4_name",0))
+    binding.actor4.setBackgroundResource(intent.getIntExtra("actor4_img",0))
     }
 }

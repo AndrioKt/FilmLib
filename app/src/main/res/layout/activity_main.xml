@@ -26,7 +26,6 @@
             android:layout_marginEnd="16dp"
             android:adjustViewBounds="true"
             android:onClick="onClickActors4"
-            android:src="@drawable/hems"
             app:circularflow_radiusInDP="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +59,7 @@
             android:alpha="0.6"
             android:gravity="center_vertical"
             android:lineSpacingExtra="4sp"
-            android:text="@string/after_the_d"
+            android:text="@string/avengers_storyline"
             android:textAppearance="@style/Description"
             app:layout_constraintBottom_toTopOf="@+id/heading"
             app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +75,6 @@
             android:layout_marginEnd="8dp"
             android:adjustViewBounds="true"
             android:onClick="onClickActors2"
-            android:src="@drawable/evans"
             app:circularflow_radiusInDP="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/actor3"
@@ -86,7 +84,7 @@
             app:layout_constraintVertical_bias="0.855" />
 
         <TextView
-            android:id="@+id/robert_down"
+            android:id="@+id/actor1_name"
             android:layout_width="80dp"
             android:layout_height="32dp"
             android:layout_alignParentLeft="true"
@@ -113,7 +111,6 @@
             android:layout_marginEnd="8dp"
             android:adjustViewBounds="true"
             android:onClick="onClickActors3"
-            android:src="@drawable/mark"
             app:circularflow_radiusInDP="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/actor4"
@@ -123,7 +120,7 @@
             app:layout_constraintVertical_bias="0.855" />
 
         <TextView
-            android:id="@+id/robert_down2"
+            android:id="@+id/actor2_name"
             android:layout_width="80dp"
             android:layout_height="32dp"
             android:layout_alignParentLeft="true"
@@ -142,12 +139,12 @@
             app:layout_constraintTop_toBottomOf="@+id/actor2" />
 
         <View
-            android:id="@+id/mask"
+            android:id="@+id/backImg"
             android:layout_width="0dp"
             android:layout_height="298dp"
             android:layout_marginBottom="40dp"
-            android:background="@drawable/orig"
-            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            android:background="@drawable/avengers_backimg"
+            app:layout_constraintBottom_toTopOf="@+id/film_tag"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -158,11 +155,11 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/back_grad"
-            app:layout_constraintBottom_toBottomOf="@+id/mask"
-            app:layout_constraintEnd_toEndOf="@+id/mask"
+            app:layout_constraintBottom_toBottomOf="@+id/backImg"
+            app:layout_constraintEnd_toEndOf="@+id/backImg"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/mask"
-            app:layout_constraintTop_toTopOf="@+id/mask"
+            app:layout_constraintStart_toStartOf="@+id/backImg"
+            app:layout_constraintTop_toTopOf="@+id/backImg"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
@@ -175,7 +172,6 @@
             android:layout_marginEnd="8dp"
             android:adjustViewBounds="true"
             android:onClick="onClickActors1"
-            android:src="@drawable/movie"
             app:circularflow_radiusInDP="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/actor2"
@@ -185,7 +181,7 @@
             app:layout_constraintVertical_bias="0.855" />
 
         <TextView
-            android:id="@+id/robert_down3"
+            android:id="@+id/actor3_name"
             android:layout_width="80dp"
             android:layout_height="32dp"
             android:layout_alignParentLeft="true"
@@ -217,7 +213,7 @@
             app:layout_constraintStart_toStartOf="@+id/tvDescription" />
 
         <TextView
-            android:id="@+id/robert_down4"
+            android:id="@+id/actor4_name"
             android:layout_width="80dp"
             android:layout_height="32dp"
             android:layout_alignParentLeft="true"
@@ -323,7 +319,7 @@
             app:layout_constraintStart_toEndOf="@+id/star_icon5" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/film_tag"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -335,7 +331,7 @@
             app:layout_constraintStart_toStartOf="@+id/star_icon" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/film_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
@@ -343,22 +339,21 @@
             android:lineSpacingExtra="0sp"
             android:text="@string/avengers_name"
             android:textAppearance="@style/film_name_style"
-            app:layout_constraintBottom_toTopOf="@+id/textView4"
-            app:layout_constraintEnd_toEndOf="@+id/textView4"
-            app:layout_constraintStart_toStartOf="@+id/textView4" />
+            app:layout_constraintBottom_toTopOf="@+id/film_tag"
+            app:layout_constraintEnd_toEndOf="@+id/film_tag"
+            app:layout_constraintStart_toStartOf="@+id/film_tag" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/film_age"
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginStart="16dp"
             android:layout_marginBottom="8dp"
             android:gravity="center_vertical"
             android:lineSpacingExtra="0sp"
-            android:text="@string/pg"
             android:textAppearance="@style/film_name_style"
             android:textSize="12sp"
-            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintBottom_toTopOf="@+id/film_name"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
@@ -367,7 +362,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="56dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintBottom_toTopOf="@+id/film_age"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"

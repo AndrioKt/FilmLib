@@ -9,11 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FilmLib" >
-        <activity
-            android:name=".Desc_Tenet"
-            android:exported="false"
-            android:label="@string/title_activity_desc_tenet"
-            android:theme="@style/Theme.FilmLib.NoActionBar" />
+
         <activity
             android:name=".LaunchActivity"
             android:exported="true" >

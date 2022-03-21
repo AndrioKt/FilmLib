@@ -1,22 +1,58 @@
 <resources>
     <string name="app_name">FilmLib</string>
+
+    <string name="heading">Cast</string>
+    <string name="tvDescriptionTitle">Storyline</string>
+    <string name="reviews">Reviews</string>
+    <string name="Movies_list">Movies list</string>
+
+    <!--Actors-->
+    <string name="gal_gadot">Gal Gadot</string>
+    <string name="chris_pine">Chris Pine</string>
+    <string name="kristen_wiig">Kristen Wiig</string>
+    <string name="pedro_pascal">Pedro Pascal</string>
+
+    <string name="john_david_washington">John David Washington</string>
+    <string name="robert_pattinson">Robert Pattinson</string>
+    <string name="elizabeth_debicki">Elizabeth Debicki</string>
+    <string name="kenneth_branagh">Kenneth Branagh</string>
+
+    <string name="scarlett_johansson">Scarlett Johansson</string>
+    <string name="florence_pugh">Florence Pugh</string>
+    <string name="david_harbour">David Harbour</string>
+    <string name="OT_fagbenle">O-T Fagbenle</string>
+
     <string name="robert_down">Robert Downey Jr.</string>
     <string name="chris_evans">Chris Evans</string>
     <string name="mark_ruffalo">Mark Ruffalo</string>
     <string name="chris_hemsworth">Chris Hemsworth</string>
-    <string name="heading">Cast</string>
-    <string name="after_the_d">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos\' actions and restore balance to the universe.</string>
-    <string name="tvDescriptionTitle">Storyline</string>
-    <string name="reviews">Reviews</string>
+
+    <!--Avengers-->
+    <string name="avengers_storyline">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos\' actions and restore balance to the universe.</string>
+    <string name="avengers_views">137 MLN</string>
     <string name="avengers_tags">Action, Adventure, Fantasy</string>
     <string name="avengers_name">Avengers: End Game</string>
-    <string name="pg">13+</string>
-    <string name="Movies_list">Movies list</string>
-    <string name="views1">137 MLN</string>
-    <string name="filmname1">Avengers:End Game</string>
     <string name="age_avengers">+13</string>
-    <string name="title_activity_desc_tenet">Desc_Tenet</string>
 
+    <!--Tenet-->
+    <string name="tenet_storyline">Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.</string>
+    <string name="tenet_views">109 MLN</string>
+    <string name="tenet_tags">Action, Sci-Fi, Thriller</string>
+    <string name="tenet_name">Tenet</string>
+    <string name="tenet_age">+16</string>
 
+    <!--Black Widow-->
+    <string name="black_widow_storyline">Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.</string>
+    <string name="black_widow_views">131 MLN</string>
+    <string name="black_widow_tags">Action, Adventure, Sci-Fi</string>
+    <string name="black_widow_name">Black Widow</string>
+    <string name="black_widow_age">+13</string>
+
+    <!--Wonder Woman-->
+    <string name="wonder_woman_storyline">A botched store robbery places Wonder Woman in a global battle against a powerful and mysterious ancient force that puts her powers in jeopardy.</string>
+    <string name="wonder_woman_views">140 MLN</string>
+    <string name="wonder_woman_tags">Action, Adventure, Fantasy</string>
+    <string name="wonder_woman_name">Wonder Woman 1984</string>
+    <string name="wonder_woman_age">+13</string>
 
 </resources>
